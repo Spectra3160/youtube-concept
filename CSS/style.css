@@ -3,13 +3,16 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .header {
   display: flex;
   align-items: center;
   padding: 20px 70px 20px 32px;
+  margin-bottom: 30px;
 }
 
 .menu_button {
@@ -52,6 +55,7 @@ body {
   background-color: transparent;
   border: none;
   padding: 12px 20px 12px 20px;
+  width: 100%;
 }
 
 .button_search {
@@ -93,4 +97,54 @@ body {
   width: 40px;
   height: 40px;
   border-radius: 50%;
+}
+
+.sidebar {
+  padding-left: 32px;
+}
+.nav-menu {
+  margin-top: 0;
+  margin-bottom: 60px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.nav-item {
+  margin-top: 28px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #898989;
+  display: flex;
+  align-items: center;
+}
+
+.nav-link:hover {
+  color: #ff0000;
+}
+
+.nav-link:hover .icon {
+  fill: #ff0000;
+}
+
+.nav-item .icon {
+  fill: #898989;
+}
+
+.nav-text {
+  margin-left: 13px;
+}
+
+.nav-image {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+}
+
+.nav-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  margin-bottom: 30px;
 }
