@@ -108,7 +108,7 @@ body {
 
 .sidebar {
   position: fixed;
-  width: 250px;
+  width: 255px;
   left: 0;
   top: 114px;
   height: calc(100% - 114px);
@@ -178,6 +178,7 @@ body {
 }
 
 .channel-title {
+  text-decoration: none;
   display: flex;
   align-items: center;
   color: #19202c;
@@ -268,9 +269,119 @@ body {
   justify-content: space-between;
   width: 66px;
 }
+
 .channel-button {
   cursor: pointer;
 }
+
+.recommended {
+  position: relative;
+  margin-bottom: 50px;
+}
+.recommended-title {
+  display: flex;
+  align-items: center;
+  color: #19202c;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 33px;
+}
+
+.recommended-slider {
+  margin-top: 30px;
+}
+
+.recommended .slider-buttons {
+  top: 2px;
+}
+
+.recommended .video-thumb {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 14px;
+  position: relative;
+}
+
+.recommended .thumbnail {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.recommended-channel {
+  position: relative;
+  margin-bottom: 50px;
+}
+.recommended-channel-title {
+  display: flex;
+  align-items: center;
+  color: #19202c;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 33px;
+}
+
+.just-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #c2c2c2;
+  margin-top: 8px;
+  margin-left: 19px;
+}
+.buttons {
+  position: absolute;
+  right: 8%;
+  top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 260px;
+}
+.subscribe-button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #ff0000;
+  border-radius: 20px;
+  width: 154px;
+  height: 40px;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.subscribe-button:active {
+  outline: none;
+}
+
+.recommended-channel-slider {
+  margin-top: 30px;
+}
+
+.recommended-channel .slider-buttons {
+  position: relative;
+  top: 2px;
+  right: 0;
+}
+
+.recommended-channel .video-thumb {
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 14px;
+  position: relative;
+}
+
+.recommended-channel .thumbnail {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+/* Adaptation */
+
 .mobile-sidebar {
   display: none;
 }
